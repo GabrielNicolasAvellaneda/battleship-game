@@ -1,4 +1,5 @@
-import com.battleship.{TargetGridCellType, TargetGrid}
+import com.battleship.TargetGrid.TargetGridCellType
+import com.battleship.TargetGrid
 import org.scalatest.{Matchers, FlatSpec}
 
 /**
