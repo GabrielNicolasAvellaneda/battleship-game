@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2a1256b-be0d-4b40-806e-3a2c56cd7e92" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/battleship/BaseGrid.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/battleship/OceanGrid.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/scala/OceanGridTest.scala" />
-      <change type="DELETED" beforePath="C:\workspace\development\work\trusty64\battleship-game\src\main\java\com\battleship\TargetGridCellType.scala" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspace\development\work\trusty64\battleship-game\target\scala-2.11\classes\com\battleship\TargetGrid$$anonfun$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspace\development\work\trusty64\battleship-game\target\scala-2.11\classes\com\battleship\TargetGrid$.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspace\development\work\trusty64\battleship-game\target\scala-2.11\classes\com\battleship\TargetGrid.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspace\development\work\trusty64\battleship-game\target\scala-2.11\classes\com\battleship\TargetGridCellType$.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspace\development\work\trusty64\battleship-game\target\scala-2.11\classes\com\battleship\TargetGridCellType.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/battleship/TargetGrid.scala" afterPath="$PROJECT_DIR$/src/main/java/com/battleship/TargetGrid.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/scala/TargetGridTest.scala" afterPath="$PROJECT_DIR$/src/test/scala/TargetGridTest.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/battleship/Ship.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/battleship/ShipPlacementDirection.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/battleship/ShipType.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/battleship/BaseGrid.scala" afterPath="$PROJECT_DIR$/src/main/java/com/battleship/BaseGrid.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/battleship/OceanGrid.scala" afterPath="$PROJECT_DIR$/src/main/java/com/battleship/OceanGrid.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/scala/OceanGridTest.scala" afterPath="$PROJECT_DIR$/src/test/scala/OceanGridTest.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="battleship-game.iws" />
@@ -42,12 +37,68 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BaseGrid.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/battleship/BaseGrid.scala">
+      <file leaf-file-name="ShipType.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/battleship/ShipType.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.53263706" vertical-offset="0" max-vertical-offset="748">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Ship.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/battleship/Ship.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+              <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShipPlacementDirection.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/battleship/ShipPlacementDirection.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+              <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OceanGridTest.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/OceanGridTest.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.53263706" vertical-offset="0" max-vertical-offset="476">
+              <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+              <folding>
+                <element signature="e#0#63#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OceanGrid.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/battleship/OceanGrid.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="867">
+              <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+              <folding>
+                <element signature="e#24#73#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TargetGrid.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/battleship/TargetGrid.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="578">
+              <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+              <folding>
+                <element signature="e#24#75#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -64,10 +115,13 @@
         <option value="$PROJECT_DIR$/src/main/scala/TargetGrid.scala" />
         <option value="$PROJECT_DIR$/src/main/java/com/battleship/TargetGridCellType.scala" />
         <option value="$PROJECT_DIR$/src/main/java/com/battleship/TargetGrid.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/OceanGridTest.scala" />
-        <option value="$PROJECT_DIR$/src/main/java/com/battleship/OceanGrid.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/TargetGridTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/battleship/ShipType.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/battleship/ShipPlacementDirection.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/battleship/Ship.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/OceanGridTest.scala" />
         <option value="$PROJECT_DIR$/src/main/java/com/battleship/BaseGrid.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/battleship/OceanGrid.scala" />
       </list>
     </option>
   </component>
@@ -208,10 +262,6 @@
               <option name="myItemId" value="battleship" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TargetGrid.scala" />
-              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -241,32 +291,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="OceanGrid.scala" />
               <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="battleship-game" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="battleship-game" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="battleship" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -674,12 +698,12 @@
       <created>1451139936906</created>
       <option name="number" value="Default" />
       <updated>1451139936906</updated>
-      <workItem from="1451139938783" duration="12422000" />
+      <workItem from="1451139938783" duration="14986000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12422000" />
+    <option name="totallyTimeSpent" value="14986000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -756,51 +780,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/TargetGridTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22193211" vertical-offset="0" max-vertical-offset="1156">
-          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/battleship/TargetGrid.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3994778" vertical-offset="102" max-vertical-offset="578">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="578">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
           <folding>
             <element signature="e#24#75#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/OceanGridTest.scala">
+    <entry file="file://$PROJECT_DIR$/src/test/scala/TargetGridTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22193211" vertical-offset="0" max-vertical-offset="383">
-          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.308094" vertical-offset="154" max-vertical-offset="1156">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
           <folding>
-            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#0#51#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/battleship/ShipType.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/battleship/Ship.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/battleship/ShipPlacementDirection.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/battleship/BaseGrid.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.66579634" vertical-offset="289" max-vertical-offset="833">
+          <caret line="32" column="29" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/battleship/OceanGrid.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6370757" vertical-offset="11" max-vertical-offset="595">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="867">
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
           <folding>
             <element signature="e#24#73#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/battleship/BaseGrid.scala">
+    <entry file="file://$PROJECT_DIR$/src/test/scala/OceanGridTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53263706" vertical-offset="0" max-vertical-offset="748">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.53263706" vertical-offset="0" max-vertical-offset="476">
+          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#63#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

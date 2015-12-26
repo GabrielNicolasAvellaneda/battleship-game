@@ -3,6 +3,7 @@ package com.battleship
 import scala.reflect.ClassTag
 
 /**
+ * A Grid that can be indexed by an Alphabet letter for row and numbers starting at 1 for columns
  * Created by developer on 26/12/2015.
  */
 class BaseGrid[T:ClassTag] (rows:Int, cols: Int, emptyValue: T) {
@@ -13,26 +14,30 @@ class BaseGrid[T:ClassTag] (rows:Int, cols: Int, emptyValue: T) {
     c - 'A'
   }
 
-  private def position(col:String, row:Int) = {
-    grid(translateColumn(col))(row-1)
+  private def position(row:String, col:Int) = {
+    grid(translateColumn(row))(col-1)
   }
 
-  def position(value: T, col: String, row: Int) = {
-    grid(translateColumn(col))(row-1) = value
+  def position(value: T, row: String, col: Int) = {
+    grid(translateColumn(row))(col-1) = value
   }
 
-  def isPositionEmpty(col:String, row: Int) = {
-    position(col, row) == emptyValue
+  def isPositionEmpty(row:String, col: Int) = {
+    position(row, col) == emptyValue
   }
 
-  def check(col: String, row: Int) = {
-    position(col, row)
+  def check(row: String, col: Int) = {
+    position(row, col)
   }
 
-  def mark(value: T, col: String, row: Int) = {
-    if (!isPositionEmpty(col, row))
+  def nextRow(row: String) = {
+    (translateColumn(row)+1).toString
+  }
+
+  def mark(value: T, row: String, col: Int) = {
+    if (!isPositionEmpty(row, col))
       throw new IllegalStateException("Can not mark an already marked position.")
 
-    position(value, col, row)
+    position(value, row, col)
   }
 }
