@@ -5,11 +5,9 @@ import TargetGridCellType._
 class TargetGrid {
 
   val grid: Array[Array[TargetGridCellType]] = new Array(TargetGrid.GridHeight)
+
   for (y <- 0 until TargetGrid.GridHeight) {
-    val arr = new Array[TargetGridCellType](TargetGrid.GridWidth)
-    for (x <- 0 until TargetGrid.GridWidth) {
-      arr(x) = TargetGridCellType.Empty
-    }
+    val arr = Array.fill(TargetGrid.GridWidth)(TargetGridCellType.Empty)
     grid(y) = arr
   }
 
