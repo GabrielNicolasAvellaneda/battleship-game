@@ -13,8 +13,12 @@ class TargetGrid {
     grid(y) = arr
   }
 
-  def check(co: String, i: Int) = {
+  def check(col: String, row: Int) = {
     grid(0)(0)
+  }
+
+  def mark(value: TargetGridCellType, col: String, row: Int) = {
+    grid(0)(0) = value
   }
 }
 
