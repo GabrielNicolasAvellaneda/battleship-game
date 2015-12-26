@@ -42,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TargetGridTest.scala" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TargetGridTest.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/scala/TargetGridTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="527">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.84334207" vertical-offset="527" max-vertical-offset="986">
+              <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
               <folding>
                 <element signature="e#0#54#0" expanded="true" />
               </folding>
@@ -54,11 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TargetGrid.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TargetGrid.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/battleship/TargetGrid.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5054054" vertical-offset="34" max-vertical-offset="493">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="714">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -84,8 +84,8 @@
       <list>
         <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/src/main/scala/TargetGrid.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/TargetGridTest.scala" />
         <option value="$PROJECT_DIR$/src/main/java/com/battleship/TargetGrid.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/TargetGridTest.scala" />
       </list>
     </option>
   </component>
@@ -273,7 +273,7 @@
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="dynamic.classpath" value="false" />
   </component>
-  <component name="RunManager" selected="ScalaTest.TargetGridTest.A TargetGrid should should allow to mark a sell position as Hit">
+  <component name="RunManager" selected="ScalaTest.TargetGridTest">
     <configuration default="false" name="TargetGridTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <extension name="scalaCoverage" />
@@ -601,8 +601,8 @@
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="ScalaTest.TargetGridTest.A TargetGrid should should allow to mark a sell position as Hit" />
-        <item index="1" class="java.lang.String" itemvalue="ScalaTest.TargetGridTest" />
+        <item index="0" class="java.lang.String" itemvalue="ScalaTest.TargetGridTest" />
+        <item index="1" class="java.lang.String" itemvalue="ScalaTest.TargetGridTest.A TargetGrid should should allow to mark a sell position as Hit" />
       </list>
     </recent_temporary>
   </component>
@@ -642,12 +642,12 @@
       <created>1451139936906</created>
       <option name="number" value="Default" />
       <updated>1451139936906</updated>
-      <workItem from="1451139938783" duration="6492000" />
+      <workItem from="1451139938783" duration="8373000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6492000" />
+    <option name="totallyTimeSpent" value="8373000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -724,21 +724,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/TargetGridTest.scala">
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.11/bundles/scalatest_2.11-2.2.4.jar!/org/scalatest/MatchersHelper.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="527">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#54#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.6898551" vertical-offset="0" max-vertical-offset="345">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/battleship/TargetGrid.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5054054" vertical-offset="34" max-vertical-offset="493">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="714">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/TargetGridTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.84334207" vertical-offset="527" max-vertical-offset="986">
+          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

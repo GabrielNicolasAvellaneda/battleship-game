@@ -6,14 +6,27 @@ class TargetGrid {
 
   import TargetGrid._
 
-  val grid: Array[Array[TargetGridCellType]] = Array.fill(GridHeight, GridWidth)(TargetGridCellType.Empty)
+  val grid = Array.fill(GridHeight, GridWidth)(TargetGridCellType.Empty)
+
+  private def translateColumn(col:String) = {
+    val c = col.toCharArray()(0)
+    c - 'A'
+  }
+
+  private def position(col:String, row:Int) = {
+    grid(translateColumn(col))(row-1)
+  }
+
+  def position(value: TargetGridCellType, col: String, row: Int) = {
+    grid(translateColumn(col))(row-1) = value
+  }
 
   def check(col: String, row: Int) = {
-    grid(0)(0)
+    position(col, row)
   }
 
   def mark(value: TargetGridCellType, col: String, row: Int) = {
-    grid(0)(0) = value
+    position(value, col, row)
   }
 }
 
