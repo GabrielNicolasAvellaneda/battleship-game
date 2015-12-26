@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e2a1256b-be0d-4b40-806e-3a2c56cd7e92" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/battleship/TargetGrid.scala" afterPath="$PROJECT_DIR$/src/main/java/com/battleship/TargetGrid.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/scala/TargetGridTest.scala" afterPath="$PROJECT_DIR$/src/test/scala/TargetGridTest.scala" />
     </list>
     <ignored path="battleship-game.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,8 +45,8 @@
       <file leaf-file-name="TargetGridTest.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/TargetGridTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="493">
-              <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="527">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding>
                 <element signature="e#0#54#0" expanded="true" />
               </folding>
@@ -57,8 +57,8 @@
       <file leaf-file-name="TargetGrid.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/battleship/TargetGrid.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.31070495" vertical-offset="68" max-vertical-offset="544">
-              <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+            <state vertical-scroll-proportion="0.5054054" vertical-offset="34" max-vertical-offset="493">
+              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -273,7 +273,7 @@
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="dynamic.classpath" value="false" />
   </component>
-  <component name="RunManager" selected="ScalaTest.TargetGridTest">
+  <component name="RunManager" selected="ScalaTest.TargetGridTest.A TargetGrid should should allow to mark a sell position as Hit">
     <configuration default="false" name="TargetGridTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <extension name="scalaCoverage" />
@@ -286,6 +286,24 @@
       <setting name="searchForTest" value="Across module dependencies" />
       <setting name="testName" value="" />
       <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TargetGridTest.A TargetGrid should should allow to mark a sell position as Hit" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <extension name="scalaCoverage" />
+      <module name="battleship-game" />
+      <setting name="path" value="TargetGridTest" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="A TargetGrid should should allow to mark a sell position as Hit" />
+      <setting name="testKind" value="Test name" />
       <setting name="showProgressMessages" value="true" />
       <envs />
       <RunnerSettings RunnerId="Run" />
@@ -577,12 +595,14 @@
       <envs />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="ScalaTest.TargetGridTest" />
+      <item index="1" class="java.lang.String" itemvalue="ScalaTest.TargetGridTest.A TargetGrid should should allow to mark a sell position as Hit" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="ScalaTest.TargetGridTest" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="ScalaTest.TargetGridTest.A TargetGrid should should allow to mark a sell position as Hit" />
+        <item index="1" class="java.lang.String" itemvalue="ScalaTest.TargetGridTest" />
       </list>
     </recent_temporary>
   </component>
@@ -622,12 +642,12 @@
       <created>1451139936906</created>
       <option name="number" value="Default" />
       <updated>1451139936906</updated>
-      <workItem from="1451139938783" duration="6231000" />
+      <workItem from="1451139938783" duration="6492000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6231000" />
+    <option name="totallyTimeSpent" value="6492000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -706,8 +726,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/TargetGridTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="493">
-          <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="527">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
             <element signature="e#0#54#0" expanded="true" />
           </folding>
@@ -716,8 +736,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/battleship/TargetGrid.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31070495" vertical-offset="68" max-vertical-offset="544">
-          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+        <state vertical-scroll-proportion="0.5054054" vertical-offset="34" max-vertical-offset="493">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>

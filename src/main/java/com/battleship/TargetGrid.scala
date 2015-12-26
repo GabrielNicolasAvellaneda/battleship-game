@@ -4,12 +4,9 @@ import TargetGridCellType._
 
 class TargetGrid {
 
-  val grid: Array[Array[TargetGridCellType]] = new Array(TargetGrid.GridHeight)
+  import TargetGrid._
 
-  for (y <- 0 until TargetGrid.GridHeight) {
-    val arr = Array.fill(TargetGrid.GridWidth)(TargetGridCellType.Empty)
-    grid(y) = arr
-  }
+  val grid: Array[Array[TargetGridCellType]] = Array.fill(GridHeight, GridWidth)(TargetGridCellType.Empty)
 
   def check(col: String, row: Int) = {
     grid(0)(0)

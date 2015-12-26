@@ -20,4 +20,6 @@ class TargetGridTest extends FlatSpec with Matchers {
     targetGrid.check("B", 2) should be (TargetGridCellType.Hit)
   }
 
+
+
 }
