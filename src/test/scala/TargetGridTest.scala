@@ -48,5 +48,14 @@ class TargetGridTest extends FlatSpec with Matchers {
     }
   }
 
+  it should "throw IllegalStateException when trying to mark an already marked position" in {
+    val targetGrid = new TargetGrid
+    a [IllegalStateException] should be thrownBy {
+      targetGrid.mark(TargetGridCellType.Hit, "A", 1)
+      targetGrid.mark(TargetGridCellType.Miss, "A", 1)
+    }
+  }
+
+
 
 }

@@ -21,11 +21,18 @@ class TargetGrid {
     grid(translateColumn(col))(row-1) = value
   }
 
+  def isPositionEmpty(col:String, row: Int) = {
+    position(col, row) == TargetGridCellType.Empty
+  }
+
   def check(col: String, row: Int) = {
     position(col, row)
   }
 
   def mark(value: TargetGridCellType, col: String, row: Int) = {
+    if (!isPositionEmpty(col, row))
+      throw new IllegalStateException
+
     position(value, col, row)
   }
 }
