@@ -5,5 +5,5 @@ package com.battleship
  */
 object ShipPlacementDirection extends Enumeration {
   type ShipPlacementDirection = Value
-  val Up, Down, Left, Right = Value
+  val Down, Right = Value
 }

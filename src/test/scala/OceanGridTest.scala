@@ -17,6 +17,10 @@ class OceanGridTest extends FlatSpec with Matchers {
    oceanGrid.place(Ship.Destroyer, "A", 1, ShipPlacementDirection.Right)
    oceanGrid.check("A", 1) should be (OceanGridCellType.DestroyerShip)
    oceanGrid.check("A", 2) should be (OceanGridCellType.DestroyerShip)
+
+   oceanGrid.place(Ship.Destroyer, "B", 1, ShipPlacementDirection.Down)
+   oceanGrid.check("B", 1) should be (OceanGridCellType.DestroyerShip)
+   oceanGrid.check("C", 1) should be (OceanGridCellType.DestroyerShip)
  }
 
 }

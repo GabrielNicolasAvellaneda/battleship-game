@@ -31,7 +31,15 @@ class BaseGrid[T:ClassTag] (rows:Int, cols: Int, emptyValue: T) {
   }
 
   def nextRow(row: String) = {
-    (translateColumn(row)+1).toString
+    offsetRow(row, 1)
+  }
+
+  def toChar(s:String) = {
+    s.toCharArray()(0)
+  }
+
+  def offsetRow(row: String, n:Int) = {
+    (toChar(row) + n).asInstanceOf[Char].toString
   }
 
   def mark(value: T, row: String, col: Int) = {

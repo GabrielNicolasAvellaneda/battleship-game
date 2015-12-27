@@ -12,10 +12,14 @@ import com.battleship.ShipType.ShipType
  */
 class OceanGrid (rows: Int, cols: Int) extends BaseGrid[OceanGridCellType](rows, cols, OceanGridCellType.Empty) {
 
-    def place(ship: Ship, row: String, col: Int, value: ShipPlacementDirection.Value) = {
+    def place(ship: Ship, row: String, col: Int, direction: ShipPlacementDirection.Value) = {
+       val shipMark = OceanGridCellType.fromShipType(ship.shipType)
        for (n <- 0 to ship.size) {
-           val theMark = OceanGridCellType.fromShipType(ship.shipType)
-           mark(theMark, row, col+n)
+           if (direction == ShipPlacementDirection.Down) {
+               mark(shipMark, offsetRow(row, n), col)
+           } else if (direction == ShipPlacementDirection.Right) {
+               mark(shipMark, row, col+n)
+           }
        }
     }
 
