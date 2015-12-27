@@ -36,9 +36,13 @@ object OceanGrid {
      */
     object OceanGridCellType extends Enumeration {
         type OceanGridCellType = Value
-        val Empty, DestroyerShip = Value
+        val Empty, CarrierShip, CruiserShip, BattleshipShip, SubmarineShip, DestroyerShip = Value
 
         def fromShipType(shipType:ShipType) = shipType match {
+            case ShipType.Carrier => OceanGridCellType.CarrierShip
+            case ShipType.Cruiser => OceanGridCellType.CruiserShip
+            case ShipType.Battleship => OceanGridCellType.BattleshipShip
+            case ShipType.Submarine => OceanGridCellType.SubmarineShip
             case ShipType.Destroyer => OceanGridCellType.DestroyerShip
             case _ => throw new NoSuchElementException
         }
